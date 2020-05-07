@@ -1,0 +1,40 @@
+.old {
+  border: 1px groove;
+  margin: 10px;
+  background-color: slateblue;
+}
+h2 {
+  color: slateblue;
+  text-decoration: underline;
+  text-decoration-color: slateblue;
+  font-family: Arial;
+}
+.Deutsch {
+  font-family: Lucida Console;
+  color: white;
+  font-size: 0.8em;
+}
+form {
+  width: 650px;
+}
+.faad {
+  width: 141px;
+}
+div {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.germany {
+  width: 88px;
+}
+.ret {
+  font-family: Lucida Console;
+  color: white;
+  font-size: 0.5em;
+}
+.buttons {
+  border: 1px solid black;
+  color: black;
+}
+
+  

@@ -1,0 +1,14 @@
+.cells {
+  border: 2px groove;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 0.73em;
+}
+h1 {
+  font-weight: bold;
+  font-size: 6em;
+  font-family: Franklin Gothic Medium;
+}
+.anderung {
+  text-align: center;
+}
