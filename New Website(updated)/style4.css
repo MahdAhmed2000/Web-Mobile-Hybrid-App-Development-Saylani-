@@ -1,0 +1,137 @@
+body {
+  background-image: url("Products/image.jpg");
+}
+.navbar {
+  background-color: teal !important;
+}  
+.nav-link {
+  color: white !important;
+}
+h1:hover {
+  cursor:pointer;
+}
+.main-icon {
+  height: 80px;
+}
+.main-icon:hover {
+  cursor: pointer;
+}
+.d-block {
+  height: 500px;
+}
+.display-4 {
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+.fa-shopping-cart {
+  font-size: 40px !important;
+}
+.nav-link {
+  transition: .4s;
+}
+.nav-link:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.1);
+}
+.dropdown-item {
+  transition: .4s;
+}
+.dropdown-item:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.1);
+}
+.new > div {
+  background-color: teal;
+  margin: 10px;
+  color: white;
+  height: 80px;
+  padding: 5px;
+}
+.new > div {
+  transition: .4s;
+}
+.new > div:hover {
+  transition: .4s;
+  background-color: rgba(3, 200, 200, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.new > div {
+  text-align: center;
+}
+.fa-comments {
+  font-size: 40px !important;
+}
+.fa-user-circle-o {
+  font-size: 40px !important;
+}
+.fa-truck {
+  font-size: 40px !important;
+}
+.card {
+  transition: .4s;
+  margin: 0 0 35px 35px;
+  height: 450px;
+}
+.card:hover {
+  transition: .4s;
+  background-color: rgba(3, 200, 200, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+  color: white;
+}
+.py-3 {
+  background-color: teal;
+  color: white;
+}  
+.old > div {
+  text-align: center;
+}
+.fa-shopping-cart:hover {
+  font-size: 70px;
+  cursor: pointer;
+}
+.card-img-top {
+  height: 250px;
+}
+@media screen and ( max-width: 700px ) {
+  img.d-block {
+    width: 100%;
+  }
+}
+@media screen and ( min-width: 600px) {
+ img.d-block {
+   width: 100%;
+ }
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+@media screen and (max-width: 600px) {
+  .card {
+    margin: 20px auto 25px 85px;
+  }
+}
+.marqtext {
+  color: white;
+}
+.card-8 {
+  transition: .4s;
+  margin: 0 0 35px 35px;
+  height: 520px;
+}
+.card-8:hover {
+  transition: .4s;
+  background-color: rgba(100, 100, 100, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .card-8 {
+    margin: 20px auto 30px 90px;
+  }
+}

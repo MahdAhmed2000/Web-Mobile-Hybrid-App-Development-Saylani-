@@ -1,0 +1,196 @@
+body {
+  background-image: url("image.jpg");
+}
+.navbar {
+  background-color: teal !important;
+}  
+.nav-link {
+  color: white !important;
+}
+.main-icon {
+  height: 80px;
+}
+.main-icon:hover {
+  cursor: pointer;
+}
+h1:hover {
+  cursor: pointer;
+}
+.d-block {
+  height: 500px;
+}
+.display-4 {
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+.fa-shopping-cart {
+  font-size: 40px !important;
+}
+.nav-link {
+  transition: .4s;
+}
+.nav-link:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.1);
+}
+.dropdown-item {
+  transition: .4s;
+}
+.dropdown-item:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.1);
+}
+.py-3 {
+  background-color: teal;
+  color: white;
+  align: bottom;
+}  
+.card {
+  transition: .4s;
+  margin: 0 0 40px 35px;
+  height: 450px;
+}
+.card:hover {
+  transition: .4s;
+  background-color: rgba(30, 60, 100, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+  color: white;
+}
+.ut {
+  text-align: center;
+  margin: 20px;
+}
+nav {
+  display: inline-block;
+}
+.page-link {
+  transition: .4s;
+}
+.page-link:hover {
+  transition: .4s;
+  background-color: rgba(30, 60, 100, 0.7);
+  transform: scale(1.1);
+  color: white;
+}
+.page-link-2 {
+  transition: .4s;
+}
+.page-link-2:hover {
+  transition: .4s;
+  background-color: rgba(70, 200, 45, 0.7);
+  transform: scale(1.1);
+}
+.page-link-3 {
+  transition: .4s;
+}
+.page-link-3:hover {
+  transition: .4s;
+  background-color: rgba(210, 160, 45, 0.7);
+  transform: scale(1.1);
+}
+.fa-shopping-cart:hover {
+  font-size: 50px;
+  cursor: pointer;
+}
+.vv {
+  text-align: center;
+}
+.fa-check:hover {
+  cursor: pointer;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.row > div {
+  text-align: center;
+}
+.card-img-top {
+  height: 250px;
+}
+.card-2 {
+  transition: .4s;
+  margin: 0 0 25px 25px;
+  height: 450px;
+}
+.card-2:hover {
+  transition: .4s;
+  background-color: rgba(70, 200, 45, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.card-3 {
+  transition: .4s;
+  margin: 0 0 25px 25px;
+  height: 450px;
+}
+.card-3:hover {
+  transition: .4s;
+  background-color: rgba(210, 160, 45, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 600px) {
+  .card {
+    margin: 20px auto 20px 85px;
+  }
+}
+.card-4 {
+  transition: .4s;
+  margin: 0 0 25px 25px;
+  height: 450px;
+}
+.card-4:hover {
+  transition: .4s;
+  background-color: rgba(140, 10, 200, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.page-link-4 {
+  transition: .4s;
+}
+.page-link-4:hover {
+  transition: .4s;
+  background-color: rgba(140, 10, 200, 0.7);
+  transform: scale(1.1);
+}
+label {
+  color: white;
+}
+form {
+  margin: 20px;
+}
+label {
+  transition: .4s;
+}
+label:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+@media screen and (max-width: 1500px) {
+  .btnn1 {
+    margin: auto auto 40px auto;
+  }
+}
+.btnn1:hover {
+  transform: scale(1.1);
+  transition: .4s;
+}
+@media screen and (max-width: 600px) {
+  .card-4 {
+    margin: 20px auto 20px 85px;
+  }
+}

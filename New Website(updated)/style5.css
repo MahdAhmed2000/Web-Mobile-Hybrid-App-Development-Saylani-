@@ -1,0 +1,67 @@
+body {
+  background-image: url("Products/image.jpg");
+}
+.container {
+  transition: .4s;
+}
+.container:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7) ;
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
+  font-size: 1.3em;
+}
+.navbar {
+  background-color: teal !important;
+}  
+.nav-link {
+  color: white !important;
+}
+.main-icon {
+  height: 80px;
+}
+.main-icon:hover {
+  cursor: pointer;
+}
+.d-block {
+  height: 500px;
+}
+.display-4 {
+  text-align: left;
+  margin: 15px auto 15px auto;
+  color: white;
+}
+.fa-shopping-cart {
+  font-size: 40px !important;
+}
+.nav-link {
+  transition: .4s;
+}
+.nav-link:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.1);
+}
+.dropdown-item {
+  transition: .4s;
+}
+.dropdown-item:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.1);
+}
+div {
+  text-align: justify;
+}
+.py-3 {
+  background-color: teal;
+  color: white;
+}
+.fa-shopping-cart:hover {
+  font-size: 50px;
+  cursor: pointer;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}

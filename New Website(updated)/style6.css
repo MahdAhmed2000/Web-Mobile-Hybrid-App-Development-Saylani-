@@ -1,0 +1,113 @@
+.navbar {
+  background-color: teal !important;
+}  
+body {
+  background-image: url("Products/image.jpg");
+}
+.nav-link {
+  color: white !important;
+}
+.main-icon {
+  height: 80px;
+}
+.main-icon:hover {
+  cursor: pointer;
+}
+h1:hover {
+  cursor: pointer;
+}
+.d-block {
+  height: 500px;
+}
+.fa-shopping-cart {
+  font-size: 40px !important;
+}
+.nav-link {
+  transition: .4s;
+}
+.nav-link:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.1);
+}
+.dropdown-item {
+  transition: .4s;
+}
+.dropdown-item:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.1);
+}
+.py-3 {
+  background-color: teal;
+  color: white;
+  align: bottom;
+}  
+.display-4 {
+  text-align: left;
+  margin: 20px;
+  color: white;
+}
+.display-4:hover {
+  cursor: pointer;
+}
+.row > div {
+  text-align: center;
+}
+.row > div {
+  transition: .4s;
+}
+.row > div:hover {
+  transition: .4s;
+  background-color: rgba(3, 100, 100, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+img.do {
+  height: 150px;
+  width: 150px;
+}
+.pol {
+  background-color: darkslategrey;
+  padding:20px;
+  font-size: 1.4em;
+  color: white;
+  cursor: pointer;
+}
+.pol:hover {
+  font-size: 1.5em;
+}
+.fa-phone {
+  transition: .4s;
+}
+.fa-phone:hover {
+  transition: .4s;
+  background-color: rgba(3, 145, 190, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.fa-envelope {
+  transition: .4s;
+}
+.fa-envelope:hover {
+  transition: .4s;
+  background-color: rgba(3, 145, 190, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.fa-home {
+  transition: .4s;
+}
+.fa-home:hover {
+  transition: .4s;
+  background-color: rgba(3, 145, 190, 0.7);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.fa-shopping-cart:hover {
+  font-size: 50px;
+  cursor: pointer;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
