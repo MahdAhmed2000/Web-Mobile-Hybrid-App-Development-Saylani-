@@ -1,0 +1,12 @@
+var name="Mahd Ahmed", country="Pakistan", zip="75100", year="2000", age="20";
+var 1name="Ahad", hg&="no", no space="lo", alert="po", #fat="fet";
+document.write(name);
+document.write(country);
+document.write(zip);
+document.write(year);
+document.write(age);
+document.write(1name);
+document.write(hg&);
+document.write(no space);
+document.write(alert);
+document.write(#fet);

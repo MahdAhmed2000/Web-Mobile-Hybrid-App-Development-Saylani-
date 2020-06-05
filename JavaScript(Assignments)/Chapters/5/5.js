@@ -1,0 +1,15 @@
+var i = 5;
+document.write("TABLE OF 5:".bold() + "<br>");
+document.write("<br>");
+document.write(i + " X 1 = " + i*1 + "<br>");
+document.write(i + " X 2 = " + i*2 + "<br>");
+document.write(i + " X 3 = " + i*3 + "<br>");
+document.write(i + " X 4 = " + i*4 + "<br>");
+document.write(i + " X 5 = " + i*5 + "<br>");
+document.write(i + " X 6 = " + i*6 + "<br>");
+document.write(i + " X 7 = " + i*7 + "<br>");
+document.write(i + " X 8 = " + i*8 + "<br>");
+document.write(i + " X 9 = " + i*9 + "<br>");
+document.write(i + " X 10 = " + i*10 + "<br>");
+document.write(i + " X 11 = " + i*11 + "<br>");
+document.write(i + " X 12 = " + i*12);

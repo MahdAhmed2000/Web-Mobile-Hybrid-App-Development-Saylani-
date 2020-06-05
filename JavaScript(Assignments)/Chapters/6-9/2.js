@@ -1,0 +1,16 @@
+var a = 2;
+var b = 1;
+document.write("a is = " + a + "<br>");
+document.write("b is = " + b + "<br>");
+var result = --a - --b + ++b + b--;
+document.write("result is = " + result + "<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("Steps: ".bold() + "<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("--a = " + 1 + "<br>");
+document.write("--b = " + 0 + "<br>");
+document.write("++b = " + 1 + "<br>");
+document.write("b-- = " + 1 + "<br>");
+document.write("Therefore,  --a - --b + ++b + b-- = " + "1 - 0 + 1 + 1 = " + result);

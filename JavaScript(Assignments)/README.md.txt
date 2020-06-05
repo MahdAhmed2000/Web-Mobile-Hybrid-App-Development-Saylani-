@@ -1,0 +1,1 @@
+Open The index.html file to view my JavaScript Assignment.

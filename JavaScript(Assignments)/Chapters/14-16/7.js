@@ -1,0 +1,10 @@
+var qual = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"];
+document.write("Qaulifications:".bold() + "<br>" + "<br>");
+document.write("1) " + qual[0] + "<br>");
+document.write("2) " + qual[1] + "<br>");
+document.write("3) " + qual[2] + "<br>");
+document.write("4) " + qual[3] + "<br>");
+document.write("5) " + qual[4] + "<br>");
+document.write("6) " + qual[5] + "<br>");
+document.write("7) " + qual[6] + "<br>");
+document.write("8) " + qual[7]);

@@ -1,0 +1,11 @@
+var ctemp = 70;
+var ftemp = 50;
+var cinf = (ctemp * (9 / 5)) + 32;
+var finc = (ftemp - 32) * (5 / 9);
+cinf = cinf.toString();
+finc = finc.toString();
+document.write("The Temperature Converter: ".bold() + "<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("70 degree celsius is: " + cinf + " degrees Fahrenheit." + "<br>");
+document.write("50 degrees fahrenheit is: " + finc + " degree Celsius.");

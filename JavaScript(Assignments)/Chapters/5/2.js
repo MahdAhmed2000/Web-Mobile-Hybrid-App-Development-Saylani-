@@ -1,0 +1,16 @@
+var x = prompt("Enter a number");
+var y = prompt("Enter another number");
+x = Number(x);
+y = Number(y);
+var z = x - y;
+var string1 = "The difference of " + x + " and " + y + " is: " + z;
+document.write(string1.bold() + "<br>");
+var m = x * y;
+var string2 = "The product of " + x + " and " + y + " is: " + m;
+document.write(string2.bold() + "<br>");
+var d = x / y;
+var string3 = "The quotient of " + x + " by " + y + " is: " + d;
+document.write(string3.bold() + "<br>");
+var u = x % y;
+var string4 = "The remainder of " + x + " divided by " + y + " is: " + u;
+document.write(string4.bold());

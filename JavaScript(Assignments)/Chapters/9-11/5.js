@@ -1,0 +1,12 @@
+document.write("RECORDED OUTPUTS OF EXERCISE QUESTIONS:".bold());
+document.write("<br>");
+document.write("5a. will be displayed" + "<br>");
+document.write("5b. will not be displayed" + "<br>");
+document.write("5c.1 will not be displayed" + "<br>");
+document.write("5c.2 will be displayed" + "<br>");
+document.write("5c.3 will  not be displayed" + "<br>");
+document.write("5c.4 will be displayed" + "<br>");
+document.write("5d will be displayed" + "<br>");
+document.write("5e1 will be displayed" + "<br>");
+document.write("5e2 will not be displayed" + "<br>");
+document.write("5f will be displayed" + "<br>");
