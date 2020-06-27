@@ -1,0 +1,29 @@
+div.container {
+  border: 1px solid black;
+  width: 40% !important;
+  margin-top: 100px;
+  color: white;
+  background-color: Azure;
+}
+div.new {
+  border: 1px solid black;
+  text-align: center;
+  height: 70px;
+  margin: 10px;
+  background-color: Teal;
+  font-weight: bold;
+  font-size: 2em;
+}
+div.new:hover {
+  cursor: pointer;
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.05);
+}
+.old {
+  margin: 5px;
+}
+h1 {
+  margin: 50px;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<h1 class="Display 4">My Calculator</h1>
+<div class="container">
+  <div class="row old">
+    <input type="text" id="textbox" class="form-control" placeholder="Enter your Equation Here:" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  <div class="row">
+    <div class="col new" id="first" onclick="myfunc(this.id)">1</div>
+    <div class="col new" id="second" onclick="myfunc(this.id)">2</div>
+    <div class="col new" id="third" onclick="myfunc(this.id)">+</div>
+    <div class="w-100"></div>
+    <div class="col new" id="fourth" onclick="myfunc(this.id)">3</div>
+    <div class="col new" id="fifth" onclick="myfunc(this.id)">4</div>
+    <div class="col new" id="sixth" onclick="myfunc(this.id)">-</div>
+  </div>
+  <div class="row">
+    <div class="col new" id="seventh" onclick="myfunc(this.id)">5</div>
+    <div class="col new" id="eighth" onclick="myfunc(this.id)">6</div>
+    <div class="col new" id="ninth" onclick="myfunc(this.id)">/</div>
+    <div class="w-100"></div>
+    <div class="col new" id="tenth" onclick="myfunc(this.id)">7</div>
+    <div class="col new" id="eleventh" onclick="myfunc(this.id)">8</div>
+    <div class="col new" id="twelfth" onclick="myfunc(this.id)">*</div>
+  </div>
+  <div class="row">
+    <div class="col new" id="thirteenth" onclick="myfunc(this.id)">9</div>
+    <div class="col new" id="fourteenth" onclick="myfunc(this.id)">0</div>
+    <div class="col new" id="fifteenth" onclick="myfunc(this.id)">%</div>
+  </div>
+  <div class="row">
+    <div class="col new" id="sixteenth" onclick="cls()">CLS</div>
+    <div class="col new" id="nineteenth" onclick="myfunc(this.id)">(</div>
+    <div class="col new" id="twentieth" onclick="myfunc(this.id)">)</div>
+  </div>
+  <div class="row">
+    <div class="col new" id="seventeenth" onclick="myfunc(this.id)">Math.log</div>
+    <div class="col new" id="eighteenth" onclick="myfunc(this.id)">Math.exp</div>
+    <div class="col new" id="twentyfirst" onclick="calcul()">=</div>
+    <div class="col new" id="twentythird" onclick="myfunc(this.id)">.</div>
+  </div>
+  <div class="row">
+    <div class="col new" id="twentysecond" onclick="myfunc(this.id)">Math.sqrt</div>
+  </div>
+</div>
+<script src="app.js"></script>
