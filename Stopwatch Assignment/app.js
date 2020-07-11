@@ -7,7 +7,7 @@ function add(){
   document.getElementById("S").disabled = true;
   msec++
   document.getElementById("4").innerHTML = msec;
-  if (msec >= 1000){
+  if (msec >= 100){
     msec = 0;
     document.getElementById("4").innerHTML = msec;
     sec++
@@ -27,7 +27,7 @@ function add(){
   }
 }
 function start(){
-  interval = setInterval(add, 1);
+  interval = setInterval(add, 10);
 }
 function stop(){
   clearInterval(interval);
