@@ -1,1 +1,1 @@
-Open The index.html file to view my JavaScript Assignment.
+Open The index.html file to view my JavaScript Assignments.

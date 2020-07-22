@@ -1,0 +1,9 @@
+div.col-sm {
+  background-color: teal;
+  color: white;
+  margin: 25px;
+  width: 1px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+}
