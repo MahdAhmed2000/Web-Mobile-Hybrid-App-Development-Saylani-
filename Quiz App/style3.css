@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+}
+div.texture {
+  margin: 10px 0 15px 20px;
+}
+.texture{
+  border: 1px solid black;
+  height: 50px;
+}
+.texture:hover{
+  cursor: pointer;
+}
+.optrow{
+  width: 500px;
+}
+.radbtn{
+  margin: 0 0 0 450px;
+}
+div.texture:hover {
+  transition: .4s;
+  background-color: rgba(3, 190, 245, 0.7);
+  transform: scale(1.1);
+}
+.middle{
+  text-align: center;
+}
+.qtexture{
+  text-align: left;
+  margin: 10px 0 15px 20px;
+}
+.faint{
+  text-align: right;
+}
+.clicked {
+  background-color: blue;
+  color: white;
+}
+.trow{
+  width: 150px;
+}
+.one1 {
+  display: inline;
+  text-align: center;
+}
+.one3 {
+  display: inline;
+  text-align: center;
+}
+.one2 {
+  dispaly: inline;
+  text-align: center;
+}
